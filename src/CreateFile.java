@@ -7,10 +7,10 @@ public class CreateFile {
         try {
             File file = new File(NameFile);
             if (file.createNewFile()){
-            System.out.println("file with successful created");
+            System.out.println("file successful created");
             }
             else{
-                System.out.println("file with already created");
+                System.out.println("file already created");
             }
 
         } catch (Exception e) {
